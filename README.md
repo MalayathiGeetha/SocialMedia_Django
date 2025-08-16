@@ -49,26 +49,29 @@ It allows users to **connect, share posts, search, send friend requests, and int
 ---
 
 ## ⚙️ Installation & Setup
-
+  **Clone the Repository**
 ```bash
- Clone the Repository
+
 
 git clone https://github.com/your-username/social-media-app.git
 cd social-media-app
+```
 
 
-
-### Backend Setup
+  **Backend Setup**
 ```bash
 cd backend
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
+```
 
 
 
-### Frontend Setup
+  **Frontend Setup**
+  ```bash
 cd frontend
 npm install
 npm start
+```
