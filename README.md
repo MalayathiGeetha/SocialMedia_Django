@@ -50,14 +50,16 @@ It allows users to **connect, share posts, search, send friend requests, and int
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the Repository
 ```bash
+ Clone the Repository
+
 git clone https://github.com/your-username/social-media-app.git
 cd social-media-app
 
 
 
 ### Backend Setup
+```bash
 cd backend
 pip install -r requirements.txt
 python manage.py migrate
